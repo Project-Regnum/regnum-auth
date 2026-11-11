@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "zooller.regnum.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CommandManagerMixin",
+		"ScreenHandlerMixin",
+		"ServerPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
